@@ -54,7 +54,8 @@ object main {
     val seed = new java.util.Date().hashCode;
 
     val nonce = sc.range(0, trials).mapPartitionsWithIndex((indx, iter) => {
-      val rand = new scala.util.Random(indx + seed)
+      //val rand = new scala.util.Random(indx + seed)
+	  val rand = trials
       iter.map(x => rand.nextInt(Int.MaxValue - 1) + 1)
     })
 

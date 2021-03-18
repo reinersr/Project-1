@@ -1,7 +1,7 @@
 Robert Reiners
 Project 1
 
-<h1>Question 1</h1>
+<h2>Question 1</h2>
 spark-submit --class "project_1.main" --master "local[*]" target/scala-2.12/project_1_2.12-1.0.jar this_is_a_bitcoin_block_of_51745511 2 10000000
 	found. count:38908
 	(1147117158this_is_a_bitcoin_block_of_51745511,00c05f3f2b83892a5526123a27786c516aa1506174b9487cad33222cc0b81419)
@@ -27,7 +27,7 @@ spark-submit --class "project_1.main" --master "local[*]" target/scala-2.12/proj
 	(2086194004this_is_a_bitcoin_block_of_51745511,0000004546bc39497a304a7a35829acbf6e1606f7123581d19cfcd1013d5628e)
 	Time elapsed:2012s
 
-##Question 2
+<h2>Question 2</h2>
 GCP
 this_is_a_bitcoin_block_of_51745511
 7
@@ -36,7 +36,7 @@ this_is_a_bitcoin_block_of_51745511
 	(1094678240this_is_a_bitcoin_block_of_51745511,0000000aeb3b870eabf9d881fe526447b61c03c7fa02199c40700dee0ed1b297)
 	Time elapsed:3397s
 
-##Question 3
+<h2>Question 3</h2>
 Non-Random
 	found. count:164
 	(651976365this_is_a_bitcoin_block_of_51745511,00006579b4999adb94608f4ab0fd420918ebb6c130fd134e6fd50484862090a4)
